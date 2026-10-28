@@ -1,0 +1,21 @@
+{
+  "name": "blockchain-based-rental-agreement",
+  "version": "1.0.0",
+  "description": "Blockchain Based Rental Agreement using React, Node.js, Express, MongoDB, Solidity, Hardhat, and ethers.js",
+  "scripts": {
+    "test:contracts": "cd contracts && npx hardhat test",
+    "test:e2e": "node backend/test-e2e.js",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "blockchain",
+    "solidity",
+    "hardhat",
+    "oracle",
+    "rental-agreement",
+    "react",
+    "ethers"
+  ],
+  "author": "",
+  "license": "MIT"
+}
