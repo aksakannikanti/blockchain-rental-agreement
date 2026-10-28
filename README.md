@@ -222,33 +222,5 @@ npm run dev
 ```
 *Access web interface at `http://localhost:3000`.*
 
----
 
-## Running Tests
 
-### 1. Smart Contract Unit Tests (Hardhat)
-```bash
-cd contracts
-npx hardhat test
-```
-*Executes all 11 unit tests covering deployment, acceptance, rejection, termination, oracle payments, and duplicate prevention.*
-
-### 2. Full End-to-End System Tests
-With the Hardhat node and backend server running:
-```bash
-cd backend
-node test-e2e.js
-```
-*Runs all 11 automated integration tests verifying the full flow from authentication to blockchain mining, oracle verification, and duplicate payment rejection.*
-
----
-
-## Demo Accounts
-
-| Role | Email | Password | Hardhat Account | Wallet Address |
-|---|---|---|---|---|
-| **Landlord** | `landlord@example.com` | `password123` | Account #0 | `0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266` |
-| **Tenant** | `tenant@example.com` | `password123` | Account #1 | `0x70997970C51812dc3A010C7d01b50e0d17dc79C8` |
-| **Oracle** | *Internal Service* | *N/A* | Account #2 | `0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC` |
-
-*(Instant 1-Click Demo login buttons are also provided directly on the UI for quick testing).*
